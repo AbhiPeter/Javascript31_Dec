@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> assignment 14 </title>
+</head>
+
+<body>
+
+    1) 1 + “2” + “2”
+    - Answer will be 122
+    - 1+"2" will be considerd as string so it will become "12"+ "2"
+    -"12"+"2" - it will concate the string to result in 122
+
+    2)1+2+3 +”4”
+    - Answer will be 64
+    - moving from left to right 1+2+3 =6
+    -6 + "4" will concat the both result will be 64
+
+    3)“4” + true
+    - Answer will be 4true
+    - from left to right it will concat
+
+    4)“True” + true
+    - result will be Truetrue
+    - it will concat both as we have used + operator
+
+    5)1 + true
+    - Answer will 2
+    -here true will be converted in boolean value 1 so it will ad 1+1=2
+
+    6)2 + false
+    -Answer will be 2.
+    -here false will be convereted in booleab value 0 so it will ad 2+0=2
+
+    7)"4" * true
+    -Answer will be 4.
+    -Here 4 string will be converted in number 4 and then booleab true to 1
+    -4*1=4
+
+    8)4 * “Af”
+    -Answer will be NaN
+    -Here as "AF" is string so when number*string it will result in NAN
+
+    9)"4" * "A"
+    -Answer will be NaN.
+    -here "A" is string so when number*string it will result in Nan
+
+    10)“4”*”4”
+    -Answer will be 16
+    -"4" is converted in number then 4*4 =16
+
+    11)4 + "4A" +10
+    -Answer will be 44A10.
+    -here from left 4+"4A" will be concat "44A"
+    -"44A" +10 = 44A10
+
+    12)4 + "4" * 10
+    -Answer will be 44.
+    -As the mulitiplication will be first as per BODMASS rule
+    -'4' will be converted in number 4*10=40
+    -4+40=44
+
+    13)4 + "4A" * 10
+    -Answer will be NaN.
+    -HERE '4A' * 10 will result in Nan.
+
+    14)4 + "true" * 10
+    -Answe will be NaN.
+    -"True" * 10 will result in NAN as "true" is string
+
+    15)true *80
+    -Answer will be 80.
+    -Here True will be 1 *80=80
+
+    16)1 +2+ 3+ "ad"
+    -answer will be 6ad.
+    -from left to right 1+2+3 = 6
+    -6+"ad" will concat to 6ad
+
+    17)"1" +2+ 3
+    -answer will be 123
+    -here "1" + 2= "12"
+    then again "12" + 3 will concat to 123
+
+    18)"1" *2+ 3+8*"true"
+    - ANswer will be Nan.
+    - "1" *2 will be 2
+    -8*"true" will be NAN as "true" is string
+
+
+
+</body>
+
+</html>

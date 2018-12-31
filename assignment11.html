@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> assignment 11 </title>
+</head>
+
+<body>
+    <script>
+        //radnom function :-
+        //random () returns a random number from 0 up to 1 but not including 1.
+        //random syntax : Math.random()
+
+        //code to return a random value from 0-9
+        function getInterger(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        console.log(getInterger(0, 9));
+    </script>
+</body>
+
+</html>

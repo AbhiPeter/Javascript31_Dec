@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> assignment 1 </title>
+</head>
+
+<body>
+    <script>
+        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14];
+
+        var arrayEven = [];
+        var arrayOdd = [];
+        array.forEach(getnumber)
+
+        function getnumber(value) {
+            if (value % 2 == 0)
+
+            {
+                arrayEven.push(value);
+            } else {
+                arrayOdd.push(value);
+            }
+        }
+
+        var calculate = [arrayEven, arrayOdd];
+
+        calculate.reduce(function1);
+
+        function function1(total) {
+            return total = arrayEven + arrayOdd;
+        }
+
+        var finalResult = {
+            calculate
+        }
+        console.log(finalResult.calculate);
+    </script>
+</body>
+
+</html>
